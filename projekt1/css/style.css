@@ -1,0 +1,308 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-size: 24px;
+	color: white;
+	font-family: Consolas;
+	background-color: #111;
+}
+img {
+	max-width: 100%;
+}
+a:hover {
+	color: #C7C7C7;
+}
+.container {
+	width: 100%;
+	max-width: 1110px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.button {
+	transition: 0.4s;
+}
+.button-red:hover {
+	background-color: #c71818;
+	color: #222;
+	box-shadow: 0 0 10px #c71818, 0 0 30px #c71818;
+
+}
+.button-blue:hover {
+	background-color: #1439D7;
+	color: #222;
+	box-shadow: 0 0 10px #1439D7, 0 0 30px #1439D7;
+}
+.title {
+	text-align: center;
+	font-size: 45px;
+	letter-spacing: 3px;
+	font-weight: 800;
+}
+
+
+/*-------Header-------*/
+
+.header {
+	width: 100%;
+	min-height: 725px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin: 60px 0;
+
+}
+
+.menu {
+	display: flex;
+}
+.menu-item {
+	padding-right:30px;
+
+}
+
+.menu-item a {
+	text-transform: uppercase;
+	color: white;
+	font-weight: 900;
+	
+}
+.header-flex {
+	display: flex;	
+	align-items: center;
+	margin-top: 130px;
+	min-height: 0px;
+
+}
+.header-title {
+	
+}
+.title-main {
+	font-size: 80px;
+	text-transform: uppercase;
+	font-weight: 800;
+	max-width: 360px;
+	width: 100%;
+
+}
+.title-sub {
+	margin-top: 30px;
+	max-width: 300px;
+	width: 100%;
+}
+.header-img {
+	height: 100%;
+}
+.header-img img {
+	width: 100%;
+}
+.header-button {
+	margin-top: 60px;
+}
+
+
+
+/*-------About PC-------*/
+
+
+.aboutpc {
+	width: 100%;
+	min-height: 1500px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin: 60px 0;
+
+}
+
+.comp-box1-flex {
+	display: flex;
+	margin-top: 120px;
+	border: 3px solid #c71818;
+	box-shadow: 0 0 15px #c71818;
+}
+.comp-box2-flex {
+	display: flex;
+	margin-top: 70px;
+	border: 3px solid #2B2BE3;
+	box-shadow: 0 0 15px #2B2BE3;
+}
+.comp-box1-text {
+	width: 50%;
+	border: 3px solid #C430C9;
+	box-shadow: 0 0 15px #C430C9;
+	margin: 20px;
+}
+.comp-box2-text {
+	width: 50%;
+	border: 3px solid #770CDA;
+	box-shadow: 0 0 15px #770CDA;
+	margin: 20px;
+}
+.comp-box-img {
+	width: 50%;
+	display: flex;
+	align-items: center;
+}
+.comp-img {
+	width: 100%;
+	height: 95%;
+}
+.comp-box-list-item {
+	padding: 20px;
+
+}
+
+/*-------About Us-------*/
+
+.aboutus {
+	width: 100%;
+	min-height: 1600px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin: 60px 0;
+
+}
+.aboutus-flex {
+	display: flex;
+	margin-top: 100px;
+	margin-bottom: 60px;
+}
+.aboutus-img1-box {
+	width: 50%;
+	display: flex;
+	align-items: center;
+}
+.aboutus-text-right {
+	width: 50%;
+	margin-left: 40px;
+}
+.aboutus-title-blue {
+	font-size: 45px;
+	font-weight: 800;
+	color: #1439D7;
+	margin-bottom: 70px;
+	max-width: 400px;
+}
+.aboutus-button {
+	margin-top: 70px;
+}
+.aboutus-text-left {
+	width: 50%;
+	margin-right: 60px;
+}
+.aboutus-title-red {
+	font-size: 45px;
+	font-weight: 800;
+	color: #c71818;
+	margin-bottom: 70px;
+	max-width: 400px;
+}
+/*-------Gallery-------*/
+.gallery {
+	width: 100%;
+	min-height: 2100px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin: 60px 0;
+}
+.gallery-flex {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 100px;
+}
+
+.gallery-flex-item {
+	height: 500px;
+	padding: 10px 0;
+}
+#gal1 {
+	width: 57%;
+	padding-right: 20px;
+}
+#gal2 {
+	width: 43%;
+}
+#gal3 {
+	width: 50%;
+	height: 400px;
+	padding-right: 20px;
+}
+#gal4 {
+	width: 50%;
+	height: 400px;
+}
+#gal5 {
+	width: 40%;
+}
+#gal6 {
+	width: 60%;
+	padding-left: 20px;
+}
+
+/*-------Buy-------*/
+.buy {
+	width: 100%;
+	min-height: 1100px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin: 60px 0;
+}
+.buy-text-main {
+	text-align: center;
+	font-size: 45px;
+	letter-spacing: 3px;
+	font-weight: 800;
+	max-width: 500px;
+	margin: 0 auto;
+	margin-top: 200px;
+}
+.buy-text-sub {
+	text-align: center;
+	font-size: 30px;
+	max-width: 700px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.buy-button {
+	margin-top: 250px;
+	display: flex;
+	justify-content: center;
+}
+
+/*-------Footer-------*/
+
+.footer {
+	width: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-color: #0C0C0C;
+	font-size: 20px;
+
+}
+.footer-flex {
+	display: flex;
+	justify-content: space-between;
+}
+.footer-list {
+	padding: 20px 0;
+}
+.footer-list-item {
+	padding-top: 15px;
+}
+.footer-list-item a {
+	text-transform: uppercase;
+	color: white;
+}
+.footer-list-item a:hover {
+	color: #C7C7C7;
+}
+.footer-list-item2 {
+	padding-top: 15px;
+
+}
+.footer-list-item2 a {
+	text-transform: uppercase;
+	color: white;
+}
+.footer-list-item2 a:hover {
+	color: #c71818;
+}
