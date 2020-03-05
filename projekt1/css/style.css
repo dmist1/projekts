@@ -69,7 +69,7 @@ a:hover {
 .header-flex {
 	display: flex;	
 	align-items: center;
-	margin-top: 100px;
+	margin-top: 130px;
 	min-height: 0px;
 
 }
@@ -163,14 +163,17 @@ a:hover {
 }
 .aboutus-flex {
 	display: flex;
+	margin-top: 100px;
 	margin-bottom: 60px;
 }
-
+.aboutus-img1-box {
+	width: 50%;
+	display: flex;
+	align-items: center;
+}
 .aboutus-text-right {
 	width: 50%;
 	margin-left: 40px;
-	padding-top: 79px;
-	padding-bottom: 79px;
 }
 .aboutus-title-blue {
 	font-size: 45px;
@@ -178,10 +181,6 @@ a:hover {
 	color: #1439D7;
 	margin-bottom: 70px;
 	max-width: 400px;
-	text-align: center;
-	margin: 0 auto;
-	margin-top: 65px;
-	margin-bottom: 45px;
 }
 .aboutus-button {
 	margin-top: 70px;
@@ -189,8 +188,6 @@ a:hover {
 .aboutus-text-left {
 	width: 50%;
 	margin-right: 60px;
-	padding-top: 79px;
-	padding-bottom: 79px;
 }
 .aboutus-title-red {
 	font-size: 45px;
@@ -198,10 +195,6 @@ a:hover {
 	color: #c71818;
 	margin-bottom: 70px;
 	max-width: 400px;
-	text-align: center;
-	margin: 0 auto;
-	margin-top: 65px;
-	margin-bottom: 45px;
 }
 /*-------Gallery-------*/
 .gallery {
@@ -288,7 +281,6 @@ a:hover {
 .footer-flex {
 	display: flex;
 	justify-content: space-between;
-	min-width: 100%;
 }
 .footer-list {
 	padding: 20px 0;
