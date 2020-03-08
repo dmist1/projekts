@@ -18,4 +18,9 @@ $(document).ready(function() {
 		],
 		draggable:false,
 	});
+
+	$('.header-burger').click(function(event) {
+		$('.header-burger,.header-menu,.header-menu-list,.header-menu-item').toggleClass('active');
+	});
+
 });

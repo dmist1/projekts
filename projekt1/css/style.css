@@ -51,16 +51,17 @@ a:hover {
 	margin: 60px 0;
 
 }
+.header-menu {
+	display: flex;
 
-.menu {
+}
+.header-menu-list {
 	display: flex;
 }
-.menu-item {
+.header-menu-item {
 	padding-right:30px;
-
 }
-
-.menu-item a {
+.header-menu-item a {
 	text-transform: uppercase;
 	color: white;
 	font-weight: 900;
@@ -98,7 +99,9 @@ a:hover {
 .header-button {
 	margin-top: 60px;
 }
-
+.header-burger {
+	display: none;
+}
 
 
 /*-------About PC-------*/
