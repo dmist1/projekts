@@ -67,6 +67,9 @@ a:hover {
 	font-weight: 900;
 	
 }
+.header-menu-item a:hover {
+	color: #C7C7C7;
+}
 .header-flex {
 	display: flex;	
 	align-items: center;
